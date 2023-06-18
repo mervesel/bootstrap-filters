@@ -1,0 +1,58 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.filters .filter-box{
+    border-bottom: 1px solid #dee2e6;
+}
+.filters .filter-box .card-header{
+    border-bottom: none;
+    border-radius: 0;
+}
+.filters .menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.filters .menu li{
+    margin-bottom: 3px;
+}
+.filters .menu li a{
+    color: #51585e;
+    text-decoration: none;
+}
+.filters .scrol{
+    max-height: 200px;
+    overflow: auto;
+    /* eğer içerik 200px'den fazlaysa scrollbar çıkar otomatik olarak. */
+}
+.card-header a{
+    text-decoration: none;
+    color: #000;
+}
+.fa-chevron-down{
+    float: right;
+    font-size: 14px;
+    color: #9da1a7;
+    margin-top: 5px;
+}
+/* ben bu checkboxı kaybedeceği ve yer de tutmasın istiyorum */
+.checkbox-btn{
+    position: relative;
+}
+.checkbox-btn input{
+    position: absolute;
+    opacity: 0;
+}
+.checkbox-btn input:checked~.btn{
+    background-color: #0d6efd;
+    color: #fff;
+
+}
+/* ben bu checkboxı kaybedeceğim,akış içerisinde olmasın istiyorum ve yer de tutmasın istiyorum */
+
+.btn-light{
+    background-color: #fff;
+    border-color:#dee2e6;
+    color: #212529;
+}
